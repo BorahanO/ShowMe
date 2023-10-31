@@ -13,4 +13,9 @@ public class LoadMainScene : MonoBehaviour
     {
         SceneManager.LoadScene("Asstroids");
     }
+    
+    public void LoadHack2Scene()
+    {
+        SceneManager.LoadScene("Minigame2");
+    }
 }
